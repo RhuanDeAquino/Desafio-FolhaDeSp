@@ -1,0 +1,257 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header {
+    width: 100%;
+    background-color: #3388de;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.atividades-menu-hamburguer {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.menu-hamburguer {
+    display: flex;
+    justify-content: center;
+}
+.atividades-logo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caixa-botoes {
+    width: 30%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.botao-fb {
+    margin: 0em;
+    padding: 0;
+    width: 25%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 0;
+    border-radius: 10%;
+}
+.icon-botao-fb {
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+.texto-botao-fb {
+    color: #3d3c82;
+    padding: 0;
+    margin: 0;
+}
+.botao-tt {
+    margin: 0em;
+    padding: 0;
+    width: 25%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    border: 0;
+    border-radius: 10%;
+}
+.icon-botao-tt {
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+.texto-botao-tt {
+    color: #008ad5;
+    padding: 0;
+    margin: 0;
+}
+
+
+main {
+    background-color: #ecf0f1;
+    width: 100%;
+}
+
+.atividades-slide {
+    margin: 0;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+.slide {
+}
+.caixa-seta {
+    margin: 0;
+    height: 67vh;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ecf0f1;
+}
+.seta-direita {
+    width: 70%;
+    height: 3rem;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30%;
+    right: 40%;
+}
+.seta-esquerda {
+    width: 70%;
+    height: 3rem;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+    top: 30%;
+    left: 60%;
+}
+.caixa-informacao-slide {
+    z-index: 2;
+    position: relative;
+    top: 120%;
+    left: 5%;
+}
+.caixa-titulo-slide {
+    background-color: #2d7dca;
+    width: 35%;
+}
+.titulo-slide {
+    color: white;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
+.texto-slide {
+    margin: 0;
+    color: white;
+    font-size: 2rem;
+}
+.atividades-top {
+    margin-top: 20%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caixa-title-top {
+    width: 90%;
+}
+.atividades-img-top {
+    display: flex;
+    justify-content: space-around;
+}
+.caixa-imagem-top {
+    width: 100%;
+    justify-content: space-around;
+}
+.etiqueta-imagem {
+    background-color: red;
+    width: 20%;
+    position: relative;
+    top: -30%;
+}
+
+
+.caixa-title-divolts {
+    width: 26%;
+    display: flex;
+    justify-content: center;
+}
+
+.box-atividades {
+    display: flex;
+}
+.caixa-informacoes {
+    display: flex;
+    justify-content: space-evenly;
+}
+.centro-informacoes {
+    display: flex;
+    justify-content: space-evenly;
+}
+.informacoes {
+    width: 45%;
+}
+.img-informacoes {
+    width: 100%;
+    height: 30vh;
+}
+.title-informacoes {
+    color: #367abe;
+}
+.texto-informacoes {
+    margin: 0;
+    color: #576375;
+    font-size: 0.9rem;
+}
+.texto-publicidade {
+    color: #c2c4c5;
+    display: flex;
+    justify-content: flex-end;
+}
+.title-sobre-paisis {
+    color: #1696ec;
+    padding-left: 2.2rem;
+}
+.lista-sobre {
+    list-style: none;
+}
+.divisoria {
+    background-color: #dadbdb;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 1px;
+}
+.title-sobre-pirulita {
+    color: #f04732;
+    padding-left: 2.2rem;
+}
+.sessao-sobre {
+    display: flex;
+    justify-content: space-around;
+}
+.title-sobre {
+    padding-left: 2.2rem;
+}
+.caixa-sobre {
+    display: flex;
+}
+.atividades-sobre-saints {
+    width: 25%;
+}
+.text-sobre-pirulita {
+    margin: 0;
+    padding: 0;
+}
+.divisoria-lista {
+    background-color: #dadbdb;
+    width: 100%;
+    height: 1px;
+}
+.atividades-sobre-suco {
+    width: 35%;
+}
+.espacamento-footer {
+    height: 40vh;
+}
+.caixa-volte {
+    background-color: #1796ec;
+}
