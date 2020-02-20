@@ -155,7 +155,7 @@ main {
     .caixa-informacao-slide {
     z-index: 2;
     position: relative;
-    top: 80%;
+    top: 86%;
     }
 }
 @media (max-width: 768px) {
@@ -186,6 +186,7 @@ main {
 @media (max-width: 768px) {
     .texto-slide {
         color: black;
+        padding-left: 1rem;
     }
 }
 .texto-slide-mod {
@@ -228,7 +229,8 @@ main {
     justify-content: space-around;
 }
 .etiqueta-imagem {
-    background-color: red;
+    background-color: #ff000099;
+    color: white;
     width: 20%;
     position: relative;
     top: -30%;
@@ -423,11 +425,13 @@ footer {
     text-decoration: none;
 }
 .caixa-seta-footer {
+    padding-right: 1rem;
     margin: 0;
     width: 6%;
     display: flex;
     justify-content: center;
 }
+
 .caixa-informacao-footer {
     background-color: #2c3a51;
     display: flex;
@@ -451,7 +455,7 @@ footer {
 }
 .texto-footer {
     color: white;
-    width: 69%;
+    width: 81%;
     font-size: 0.8rem;
 }
 .pesqueisa-footer {
