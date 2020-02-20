@@ -12,6 +12,11 @@ header {
     align-items: center;
     justify-content: space-evenly;
 }
+@media (max-width: 768px) {
+    header {
+        justify-content: flex-start;
+    }
+}
 .atividades-menu-hamburguer {
     width: 20%;
     display: flex;
@@ -27,11 +32,21 @@ header {
     justify-content: center;
     align-items: center;
 }
+@media (max-width: 768px) {
+    .texto-logo {
+    display: none;
+    }
+}
 .caixa-botoes {
     width: 30%;
     height: 10%;
     display: flex;
     justify-content: space-evenly;
+}
+@media (max-width: 768px) {
+    .caixa-botoes {
+    display: none;
+    }
 }
 .botao-fb {
     margin: 0em;
@@ -74,21 +89,24 @@ header {
     padding: 0;
     margin: 0;
 }
-
-
 main {
     background-color: #ecf0f1;
     width: 100%;
 }
-
+@media (max-width: 768px) {
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
 .atividades-slide {
     margin: 0;
     height: 50vh;
     display: flex;
     justify-content: center;
 }
-.slide {
-}
+
 .caixa-seta {
     margin: 0;
     height: 67vh;
@@ -97,6 +115,11 @@ main {
     justify-content: center;
     align-items: center;
     background-color: #ecf0f1;
+}
+@media (max-width: 768px) {
+    .caixa-seta {
+        display: none;
+    }
 }
 .seta-direita {
     width: 70%;
@@ -127,12 +150,29 @@ main {
     z-index: 2;
     position: relative;
     top: 120%;
-    left: 5%;
+}
+@media (max-width: 768px) {
+    .caixa-informacao-slide {
+    z-index: 2;
+    position: relative;
+    top: 80%;
+    }
+}
+@media (max-width: 768px) {
+    .slide {
+        width: 100%;
+    }
 }
 .caixa-titulo-slide {
     background-color: #2d7dca;
     width: 35%;
 }
+@media (max-width: 768px) {
+    .caixa-titulo-slide {
+    width: 67%;
+    }
+}
+
 .titulo-slide {
     color: white;
     font-size: 1.2rem;
@@ -142,6 +182,25 @@ main {
     margin: 0;
     color: white;
     font-size: 2rem;
+}
+@media (max-width: 768px) {
+    .texto-slide {
+        color: black;
+    }
+}
+.texto-slide-mod {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 2rem;
+}
+@media (max-width: 768px) {
+    .texto-slide-mod {
+        display: none;
+        margin: 0;
+        color: white;
+        font-size: 2rem
+    }
 }
 .atividades-top {
     margin-top: 20%;
@@ -155,8 +214,14 @@ main {
     width: 90%;
 }
 .atividades-img-top {
+    width: 90%;
     display: flex;
     justify-content: space-around;
+}
+@media (max-width: 768px) {
+    .atividades-img-top {
+        flex-direction: column;
+    }
 }
 .caixa-imagem-top {
     width: 100%;
@@ -168,14 +233,27 @@ main {
     position: relative;
     top: -30%;
 }
-
-
+@media (max-width: 768px) {
+    .etiqueta-imagem {
+        top: -72px;
+    }
+}
+@media (max-width: 768px) {
+    atividades-divolts {
+        display: flex;
+        flex-direction: column;
+    }
+}
 .caixa-title-divolts {
     width: 26%;
     display: flex;
     justify-content: center;
 }
-
+@media (max-width: 768px) {
+    .caixa-title-divolts {
+        width: 100%;
+    }
+}
 .box-atividades {
     display: flex;
 }
@@ -183,12 +261,32 @@ main {
     display: flex;
     justify-content: space-evenly;
 }
-.centro-informacoes {
+@media (max-width: 768px) {
+    .caixa-informacoes {
     display: flex;
     justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    }
+}
+.centro-informacoes {
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width: 768px) {
+    .centro-informacoes {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    }
 }
 .informacoes {
     width: 45%;
+}
+@media (max-width: 768px) {
+    .informacoes {
+        width: 90%;
+    }
 }
 .img-informacoes {
     width: 100%;
@@ -201,6 +299,14 @@ main {
     margin: 0;
     color: #576375;
     font-size: 0.9rem;
+}
+.caixa-publicidade {
+    width: 24%;
+}
+@media (max-width: 768px) {
+    .caixa-publicidade {
+        display: none;
+    }
 }
 .texto-publicidade {
     color: #c2c4c5;
@@ -220,6 +326,13 @@ main {
     margin-bottom: 30px;
     height: 1px;
 }
+@media (max-width: 768px) {
+    .caixa-infomacoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 .title-sobre-pirulita {
     color: #f04732;
     padding-left: 2.2rem;
@@ -228,14 +341,25 @@ main {
     display: flex;
     justify-content: space-around;
 }
+@media (max-width: 768px) {
+    .sessao-sobre {
+        flex-direction: column;
+    }
+}
 .title-sobre {
     padding-left: 2.2rem;
 }
 .caixa-sobre {
     display: flex;
+    width: 95%;
 }
 .atividades-sobre-saints {
     width: 25%;
+}
+@media (max-width: 768px) {
+    .atividades-sobre-saints {
+        width: 95%;
+    }
 }
 .text-sobre-pirulita {
     margin: 0;
@@ -249,9 +373,87 @@ main {
 .atividades-sobre-suco {
     width: 35%;
 }
+@media (max-width: 768px) {
+    .atividades-sobre-suco {
+        width: 100%;
+    }
+}
+.texto-publicidade-2 {
+    color: #576375;
+    margin: 0;
+    width: 19rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.atividades-publicidade {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width: 768px) {
+    .atividades-publicidade {
+     display: none;
+    }
+}
+footer {
+    background-color: #ecf0f1;
+}
 .espacamento-footer {
     height: 40vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
 }
 .caixa-volte {
     background-color: #1796ec;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.volte {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+.link-volte {
+    text-decoration: none;
+}
+.caixa-seta-footer {
+    margin: 0;
+    width: 6%;
+    display: flex;
+    justify-content: center;
+}
+.caixa-informacao-footer {
+    background-color: #2c3a51;
+    display: flex;
+    align-items: center;
+}
+.caixa-img-footer {
+    width: 27%;
+    display: flex;
+    justify-content: flex-end;
+}
+@media (max-width: 768px) {
+    .caixa-img-footer {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .caixa-texto-footer {
+    display: flex;
+    justify-content: center;
+    }
+}
+.texto-footer {
+    color: white;
+    width: 69%;
+    font-size: 0.8rem;
+}
+.pesqueisa-footer {
+    color: white;
 }
